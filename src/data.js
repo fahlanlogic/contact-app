@@ -3,19 +3,19 @@ const dataContact = () => {
 		{
 			id: 1,
 			name: "Papi",
-			tag: "Kepala Keluarga",
+			tag: "kepalakeluarga",
 			imageUrl: "./public/img/papi.jpg",
 		},
 		{
 			id: 2,
 			name: "Mami",
-			tag: "Ibu Rumah Tangga",
+			tag: "iburumahtangga",
 			imageUrl: "./public/img/mami.jpg",
 		},
 		{
 			id: 3,
 			name: "Kakak",
-			tag: "Kakak Pertama",
+			tag: "kakakpertama",
 			imageUrl: "./public/img/kakak.jpg",
 		},
 	];
