@@ -10,8 +10,8 @@ class ContactApp extends React.Component {
       contacts: dataContact()
     }
     
-    this.onDeleteEventHandler = this.onDeleteEventHandler.bind(this);
     this.onAddEventHandler = this.onAddEventHandler.bind(this);
+    this.onDeleteEventHandler = this.onDeleteEventHandler.bind(this);
   }
   onDeleteEventHandler(id) {
     const contacts = this.state.contacts.filter(contact => contact.id !== id);

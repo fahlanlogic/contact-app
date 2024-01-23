@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 function ContactItemImage({imageUrl}) {
   return (
     <div className="contact-item_image">
